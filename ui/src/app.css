@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@layer base {
+  html,
+  body,
+  #app {
+    height: 100%;
+    @apply overflow-hidden select-none;
+  }
+}
